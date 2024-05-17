@@ -1,0 +1,5 @@
+Question 2:
+React updates the webpage by making a copy of it in memory, figuring out what changed, and then only changing those parts on the actual webpage.
+
+Question 7:
+The virtual DOM applies changes to an in-memory instance of the actual DOM. It updates only the differences between this virtual representation and the real DOM. This makes the process efficient.
