@@ -1,0 +1,32 @@
+.hero {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  text-align: center; /* Centers the heading */
+}
+
+.hero-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.hero-items {
+  list-style: disc inside; /* Ensure bullets are inside the list item box */
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left; /* Ensures the list items are left-aligned */
+}
+
+.hero-items li {
+  background-color: white;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero-items li:hover {
+  background-color: #eee;
+}

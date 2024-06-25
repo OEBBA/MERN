@@ -1,0 +1,13 @@
+.buttons button {
+  margin: 10px;
+}
+
+.custom-width {
+  width: 120%;
+  margin-top: 50px;
+  margin-left: -50px;
+}
+
+.list-group ol {
+  list-style-type: none;
+}
