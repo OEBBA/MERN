@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "hero hero hero"
+    "sidebar content content"
+    "footer footer footer";
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto auto minmax(100px, auto) 75px;
+  gap: 10px;
+}
+
+.navbar {
+  grid-area: navbar;
+  height: 50px;
+  width: 100%;
+  background-color: purple;
+}
+
+.hero {
+  grid-area: hero;
+  height: 80px;
+  width: 100%;
+  background-color: pink;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  min-height: 100px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.content {
+  grid-area: content;
+  width: 100%;
+  background-color: red;
+}
+
+.footer {
+  grid-area: footer;
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
+}
